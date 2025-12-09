@@ -5,6 +5,7 @@
     height: 2.5rem;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 2px 4px #d8dddd;
 }
 
 .title {
