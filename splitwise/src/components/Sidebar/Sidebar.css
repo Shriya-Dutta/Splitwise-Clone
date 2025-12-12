@@ -1,0 +1,47 @@
+.sidebarContainer {
+    background-color: #e6e9ee;
+    width: 18%;
+    height: 93vh;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.routeLink {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.active {
+    background-color: #5ac5a7;
+    border-radius: 0.2rem;
+}
+
+.navTab {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+    height: 3rem;
+}
+
+.routeLink.active .navTab {
+    color: white;
+} 
+
+.friendsIcon {
+    font-size: 1.4rem;
+}
+
+.friendsTitle {
+    font-size: 1.1rem;
+}
+
+.expensesIcon {
+    font-size: 1.4rem;
+}
+
+.expensesTitle {
+    font-size: 1.1rem;
+}
